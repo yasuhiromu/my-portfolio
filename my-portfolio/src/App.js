@@ -3,6 +3,7 @@ import React from 'react';
 import Image00 from './image/head01.jpg' 
 import Button from '@mui/material/Button';
 import Header from './header/Header'
+import Port from './portfolio/Portfolio'
 
 console.log(Image00);
 
@@ -29,11 +30,10 @@ function App() {
           </p>
         </div>
       </div>
-      <div className='portfolio'>
-        <h1>◆Portfolio</h1><br/>
-        <div className='my-profile'>
-          {/* ここに自分の作品をまとめる */}
-        </div>
+      <h2 className='port-title'>◆Portfolio</h2><br/>
+      <div className='my-profile'>
+        {/* ↓自分の作品をまとめる */}
+        <Port/>
       </div>
       
       <div id='set'>
@@ -43,6 +43,8 @@ function App() {
     
   );
 }
+
+
 
 function abc(){
   alert("Hello")
