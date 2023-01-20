@@ -2,12 +2,54 @@
   text-align: center;
   padding-top: 10px;
 }
-.App-header{
-  
+#name{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
-.school{
-  margin-left: 10px;
+html { 
+  overflow-x: hidden;
+}
+.App-header{
+  margin-top: 5%;
+}
+.slider{
+  margin-top: auto;
+}
+.profile{
+  margin-left: 3%;
+}
+.myphoto{
+  text-align: right;
+  margin-right: 8%;
+  margin-top: 10px;
+  padding-bottom: 0px;
 }
 .my-profile{
-  margin-top: 10px;
+  width: 50%;
+  float: left;
+  margin-left: 5%;
+}
+.port-title{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.my-port{
+  clear: both;
+  margin-left: 8%;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.profile-text{
+  border: solid;
+  padding: 10px;
+}
+.hr-text{
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.my-hobby{
+  width: 50%;
+  margin-left: 8%;
 }
