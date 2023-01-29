@@ -10,7 +10,7 @@ html {
   overflow-x: hidden;
 }
 .App-header{
-  margin-top: 5%;
+  margin-top: 64px;
 }
 .slider{
   margin-top: auto;
@@ -32,16 +32,22 @@ html {
 .port-title{
   padding-bottom: 0px;
   margin-bottom: 0px;
+  margin-left: 8%;
 }
 .my-port{
   clear: both;
+  width: 60%;
   margin-left: 8%;
   padding-top: 0px;
   margin-top: 0px;
+  padding: 1em 1em 1em 1em; /*余白*/
+  background: #e3f6f5; /*背景色*/
+  border-radius: 10px; /*角丸*/
 }
 .profile-text{
-  border: solid;
-  padding: 10px;
+  padding: 1em 1em 1em 1em; /*余白*/
+  background: #e3f6f5; /*背景色*/
+  border-radius: 10px; /*角丸*/
 }
 .hr-text{
 	background-color: #fff;
@@ -52,4 +58,35 @@ html {
 .my-hobby{
   width: 50%;
   margin-left: 8%;
+}
+.interne-title{
+  margin-left: 8%;
+}
+.interne{
+  margin-left: 8%;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.frontend{
+  float: left;
+  width: 160px;
+}
+.backend{
+  float: left;
+  width: 160px;
+}
+.lang{
+  float: left;
+  width: 190px;
+}
+.tool{
+  float: left;
+  width: 240px;
+}
+.task{
+  float: left;
+  width: 190px;
+}
+.hr-text{
+  clear: both;
 }

@@ -1,4 +1,5 @@
 import './App.css';
+import MediaQuery from "react-responsive";
 import React from 'react';
 // import Image00 from './image/head01.jpg' 
 import Button from '@mui/material/Button';
@@ -16,6 +17,15 @@ function App() {
       <div className="slider">
         <Header2/>
       </div>
+
+
+      <MediaQuery query="(max-width: 999px)">
+        <div>Screen is wide2: 😢</div>
+      </MediaQuery>
+      <MediaQuery query="(min-width: 1000px)">
+        <div>Screen is wide2: 😃</div>
+      </MediaQuery>
+
       
       {/* <img src={Image00} alt="Logo" width="100%"/> オーストラリアで撮った画像にする */}
       <div className='profile'>
@@ -39,17 +49,68 @@ function App() {
         </div>
       </div>
 
-      
+      <h2 className='port-title'>◆Portfolio</h2><br/>
       <div className='my-port'>
-        <h2 className='port-title'>◆Portfolio</h2><br/>
+        
         {/* ↓自分の作品をまとめる */}
         <Port/>
-        <p><b>長期インターン</b></p>
-        <p>こんなことをしました。説明あああああ</p>
-      </div>
+        
+      </div>  
+        
+        <h3 className='interne-title'><b>長期インターン</b></h3>
+        <div className='interne'>
+          <div className='frontend'>
+            <ul>
+              <li>フロントエンド</li>
+                <ul>
+                  <li>Auth0</li>
+                  <li>pay.jp</li>
+                  <li>smartLP</li>
+                </ul>
+            </ul>
+          </div>
+          <div className='backend'>
+            <ul>
+              <li>バックエンド</li>
+                <ul>
+                  <li>wasabi</li>
+                  <li>kintone</li>
+                  <li>Zendesk</li>
+                </ul>
+            </ul>
+          </div>
+          <div className='tool'>
+            <ul>
+              <li>コミュニケーションツール</li>
+                <ul>
+                  <li>discode</li>
+                  <li>slack</li>
+                </ul>
+            </ul>
+          </div>
+          <div className='task'>
+            <ul>
+              <li>タスク管理ツール</li>
+                <ul>
+                  <li>asana</li>
+                  <li>Instagant</li>
+                  <li>Github</li>
+                </ul>
+            </ul>
+          </div>
+          <div className='lang'>
+            <ul>
+              <li>プログラミング言語</li>
+                <ul>
+                  <li>React</li>
+                </ul>
+            </ul>
+          </div>
+        </div>
+      
 
-      <hr class="hr-text"></hr>
-      <hr class="hr-text"></hr>
+      <hr className="hr-text"></hr>
+      <hr className="hr-text"></hr>
 
       <div className='my-hobby'>
         <h2 className='hobby-title'>◆hobby</h2><br/>

@@ -2,8 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Image00 from '../image/Head01.jpg' 
-import Image01 from '../image/Head.jpg' 
+import Image00 from '../image/head01.jpg' 
+import Image01 from '../image/head.jpg' 
 export default function SimpleSlider() {
     const settings = {
         autoplay: true,
