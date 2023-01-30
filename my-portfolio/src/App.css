@@ -36,18 +36,16 @@ html {
 }
 .my-port{
   clear: both;
-  width: 60%;
   margin-left: 8%;
+  margin-right: 8%;
   padding-top: 0px;
   margin-top: 0px;
   padding: 1em 1em 1em 1em; /*余白*/
   background: #e3f6f5; /*背景色*/
-  border-radius: 10px; /*角丸*/
 }
 .profile-text{
   padding: 1em 1em 1em 1em; /*余白*/
   background: #e3f6f5; /*背景色*/
-  border-radius: 10px; /*角丸*/
 }
 .hr-text{
 	background-color: #fff;
@@ -67,25 +65,12 @@ html {
   padding-top: 0px;
   margin-top: 0px;
 }
-.frontend{
-  float: left;
-  width: 160px;
+.cc{
+  padding: 1em 1em 2em 1em; /*余白*/
+  background: #e3f6f5; /*背景色*/
 }
-.backend{
+.frontend,.backend,.lang,.tool,.task{
   float: left;
-  width: 160px;
-}
-.lang{
-  float: left;
-  width: 190px;
-}
-.tool{
-  float: left;
-  width: 240px;
-}
-.task{
-  float: left;
-  width: 190px;
 }
 .hr-text{
   clear: both;

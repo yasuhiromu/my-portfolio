@@ -60,8 +60,8 @@ function App() {
         <h3 className='interne-title'><b>長期インターン</b></h3>
         <div className='interne'>
           <div className='frontend'>
-            <ul>
-              <li>フロントエンド</li>
+            <ul className='cc'>
+              <p>フロントエンド</p>
                 <ul>
                   <li>Auth0</li>
                   <li>pay.jp</li>
@@ -70,8 +70,8 @@ function App() {
             </ul>
           </div>
           <div className='backend'>
-            <ul>
-              <li>バックエンド</li>
+            <ul className='cc'>
+              <p>バックエンド</p>
                 <ul>
                   <li>wasabi</li>
                   <li>kintone</li>
@@ -80,17 +80,17 @@ function App() {
             </ul>
           </div>
           <div className='tool'>
-            <ul>
-              <li>コミュニケーションツール</li>
+            <ul className='cc'>
+              <p>情報共有ツール</p>
                 <ul>
                   <li>discode</li>
-                  <li>slack</li>
+                  <li>slack</li><br/>
                 </ul>
             </ul>
           </div>
           <div className='task'>
-            <ul>
-              <li>タスク管理ツール</li>
+            <ul className='cc'>
+              <p>タスク管理ツール</p>
                 <ul>
                   <li>asana</li>
                   <li>Instagant</li>
@@ -99,10 +99,10 @@ function App() {
             </ul>
           </div>
           <div className='lang'>
-            <ul>
-              <li>プログラミング言語</li>
+            <ul className='cc'>
+              <p>プログラミング言語</p>
                 <ul>
-                  <li>React</li>
+                  <li>React</li><br/><br/>
                 </ul>
             </ul>
           </div>
