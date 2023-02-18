@@ -5,9 +5,15 @@ import React from 'react';
 import Button from '@mui/material/Button';
 import Header from './header/Header'
 import Header2 from './header/Header-slider'
-import Port from './portfolio/Portfolio'
+// import Port from './portfolio/Portfolio'
 import Portunder1000 from './portfolio/Portfolio-under1000'
-import Image01 from './header/ap.jpg'
+import Image01 from './image/profile.jpg'
+import Image02 from './image/rabbit.jpg'
+import Image03 from './image/rabbit1.jpg'
+import Image04 from './image/Australia.jpg'
+import Image05 from './image/my-logo.png'
+import Image06 from './image/original logo.png'
+// import Image05 from './image/my-logo.png'
 
 function App() {
   return (
@@ -16,14 +22,14 @@ function App() {
         <Header/>
       </header>
       
-      <MediaQuery query="(max-width: 999px)">
+      <MediaQuery query="(max-width: 1300px)">
           <div className="slider">
             <Header2/>
           </div>
           {/* <img src={Image00} alt="Logo" width="100%"/> オーストラリアで撮った画像にする */}
           <h1 id='name'>Hiromu Yasukaga <br/> AIシステム科-ITスペシャリスト科</h1><br/>
             
-            <div className='my-profile'>
+            <div className='my-profile' style={{margin: '109.28px'}}>
               <h2>2001年生まれ21歳</h2>
             
               <p className='profile-text'>
@@ -35,9 +41,7 @@ function App() {
                 海外に行ってみたり、コンテストやイベントへの参加、教室を開くなど他にも色々なことに挑戦してきました。
               </p>
             </div>
-            <div  className="myphoto">
-              <img src={Image01} alt="Logo" width="30%"/> {/*オーストラリアで撮った画像にする */}
-            </div>
+
 
           <h2 className='port-title'>◆Portfolio</h2><br/>
           <div className='my-port'>
@@ -122,13 +126,13 @@ function App() {
 
 
 
-      <MediaQuery query="(min-width: 1000px)">
+      <MediaQuery query="(min-width: 1300px)">
         <div className="slider">
           <Header2/>
         </div>
         {/* <img src={Image00} alt="Logo" width="100%"/> オーストラリアで撮った画像にする */}
           <h1 id='name'>Hiromu Yasukaga | AIシステム科-ITスペシャリスト科</h1><br/>
-          <div className='my-profile'>
+          <div className='my-profile' style={{width: '55%'}}>
             
             <h2>
               2001年生まれ21歳
@@ -136,26 +140,28 @@ function App() {
             
             <p className='profile-text'>
               パソコンを触り始めて3年が経ちました。<br/>
-              私は高校生2年生の春にオーストラリアへホームステイへ行かせていただきました。<br/>
-              その際に学生さんがプログラミングでゲームを作成していた様子をみて
+              私は高校生2年生の春にオーストラリアへ留学・ホームステイへ行かせていただきました。<br/>
+              その際に留学先の学生さんがプログラミングでゲームを作成していた様子をみて
               プログラミングに興味を持ち始めました。<br/>
               好奇心旺盛な性格で、気になったことを全力でやるのが好きなので、
               海外に行ってみたり、コンテストやイベントへの参加、教室を開くなど他にも色々なことに挑戦してきました。
             </p>
+            <img id='au' src={Image04} alt="Logo" width="100%"/>
+            
           </div>
           <div  className="myphoto">
             <img src={Image01} alt="Logo" width="30%"/> {/*オーストラリアで撮った画像にする */}
           </div>
+          
 
         <h2 className='port-title'>◆Portfolio</h2><br/>
         <div className='my-port'>
-          
-          {/* ↓自分の作品をまとめる */}
-          <Port/>
-          
+          <div id='set'>
+            <Button variant="contained" style={{ width: "40%", height: "50px",color: "#ffa500"}} onClick={()=>{abc();}}><b>Portfolioの閲覧はこちらをクリックしてください</b></Button>
+          </div>
         </div>  
           
-          <h3 className='interne-title'><b>長期インターン</b></h3>
+          <h2 className='interne-title'><b>◆長期インターン</b></h2>
           <div className='interne'>
             <div className='frontend'>
               <ul className='cc'>
@@ -204,6 +210,16 @@ function App() {
                   </ul>
               </ul>
             </div>
+            <p className='interne-text'>
+              パソコンを触り始めて3年が経ちました。<br/>
+              私は高校生2年生の春にオーストラリアへ留学・ホームステイへ行かせていただきました。<br/>
+              その際に留学先の学生さんがプログラミングでゲームを作成していた様子をみて
+              プログラミングに興味を持ち始めました。<br/>
+              パソコンを触り始めて3年が経ちました。<br/>
+              私は高校生2年生の春にオーストラリアへ留学・ホームステイへ行かせていただきました。<br/>
+              その際に留学先の学生さんがプログラミングでゲームを作成していた様子をみて
+              プログラミングに興味を持ち始めました。<br/>
+            </p>
           </div>
         
 
@@ -212,19 +228,28 @@ function App() {
 
         <div className='my-hobby'>
           <h2 className='hobby-title'>◆hobby</h2><br/>
-          {/* ↓自分の趣味をまとめる */}
-          <p className='hobby-text'>
-              パソコンを触り始めて3年が経ちました。<br/>
-              私は高校生2年生の春にオーストラリアへホームステイへ行かせていただきました。<br/>
-              その際に学生さんがプログラミングでゲームを作成していた様子をみて
-              プログラミングに興味を持ち始めました。<br/>
-              好奇心旺盛な性格で、気になったことを全力でやるのが好きなので、
-              海外に行ってみたり、コンテストやイベントへの参加、教室を開くなど他にも色々なことに挑戦してきました。
-          </p>
+          <div className='hobbylist'>
+              <ul className='cc'>
+                  <ul>
+                    <li>筋トレ</li>
+                    <li>絵、デザイン</li>
+                    <li>読書</li>
+                    <li>格闘技</li>
+                    <li>ゲーム</li>
+                    <li>1人旅行</li>
+                  </ul>
+              </ul>
+          </div>
+          <div className='hobby-img'>
+              {/* ↓自分の趣味をまとめる */}
+              <img id='rabbit01' src={Image02} alt="Logo" width="20%"/> 
+              <img id='rabbit02' src={Image03} alt="Logo" width="20%"/> 
+              <img id='orilogo' src={Image05} alt="Logo" width="15%"/> 
+              <img id='orilogo1' src={Image06} alt="Logo" width="15%"/> 
+          </div>
+              
         </div>
-        <div id='set'>
-          <Button variant="contained" onClick={()=>{abc();}}>Hello World</Button>
-        </div>
+        
       </MediaQuery>
       
     </div>
@@ -236,7 +261,7 @@ function App() {
 
 
 function abc(){
-  alert("Hello")
+  window.location.replace("https://www.notion.so/Portfolio-cbb35691f3624b6cb6994f8692f2a7d7?pvs=4")
 }
 
 export default App;
