@@ -15,29 +15,29 @@ html {
 .slider{
   margin-top: auto;
 }
-.profile{
+#name{
   margin-left: 3%;
 }
 .myphoto{
   text-align: right;
-  margin-right: 8%;
-  margin-top: 10px;
+  margin-right: 109.28px;
   padding-bottom: 0px;
 }
 .my-profile{
+  margin-left:109.28px;
+}
+.profile-text{
   width: 50%;
   float: left;
-  margin-left: 5%;
 }
 .port-title{
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  margin-left: 8%;
+  clear: both;
+  margin-left:  109.28px;
 }
 .my-port{
   clear: both;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 109.28px;
+  margin-right: 109.28px;
   padding-top: 0px;
   margin-top: 0px;
   padding: 1em 1em 1em 1em; /*余白*/
@@ -50,18 +50,18 @@ html {
 .hr-text{
 	background-color: #fff;
 	border-top: 2px dashed #8c8b8b;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 109.28px;
+  margin-right: 109.28px;
 }
 .my-hobby{
   width: 50%;
-  margin-left: 8%;
+  margin-left: 109.28px;
 }
 .interne-title{
-  margin-left: 8%;
+  margin-left: 109.28px;
 }
 .interne{
-  margin-left: 8%;
+  margin-left: 109.28px;
   padding-top: 0px;
   margin-top: 0px;
 }
@@ -74,4 +74,8 @@ html {
 }
 .hr-text{
   clear: both;
+}
+.hobby-text{
+  padding: 1em 1em 1em 1em; /*余白*/
+  background: #e3f6f5; /*背景色*/
 }
