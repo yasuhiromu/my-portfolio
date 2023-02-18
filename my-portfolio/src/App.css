@@ -21,14 +21,29 @@ html {
 .myphoto{
   text-align: right;
   margin-right: 109.28px;
-  padding-bottom: 0px;
+  padding-top: 1em;
 }
 .my-profile{
   margin-left:109.28px;
 }
 .profile-text{
-  width: 50%;
   float: left;
+}
+#rabbit01{
+}
+#rabbit02{
+}
+#au{
+  float: left;
+}
+.profile-text1,.profile-text2{
+  padding: 1em 1em 1em 1em; /*余白*/
+  background: #e3f6f5; /*背景色*/
+  width: 48%;
+  float: left;
+}
+.profile-text2{
+  margin-left: 4%;
 }
 .port-title{
   clear: both;
@@ -54,20 +69,23 @@ html {
   margin-right: 109.28px;
 }
 .my-hobby{
-  width: 50%;
   margin-left: 109.28px;
+  margin-right: 109.28px;
 }
 .interne-title{
   margin-left: 109.28px;
 }
+
 .interne{
   margin-left: 109.28px;
+  margin-right: 109.28px;
   padding-top: 0px;
   margin-top: 0px;
-}
-.cc{
   padding: 1em 1em 2em 1em; /*余白*/
   background: #e3f6f5; /*背景色*/
+}
+.lang{
+  padding-right: 5%;
 }
 .frontend,.backend,.lang,.tool,.task{
   float: left;
@@ -75,7 +93,11 @@ html {
 .hr-text{
   clear: both;
 }
-.hobby-text{
+.hobbylist{
+  width: 20%;
+  float: left;
   padding: 1em 1em 1em 1em; /*余白*/
   background: #e3f6f5; /*背景色*/
+  margin-right: 4%;
 }
+
