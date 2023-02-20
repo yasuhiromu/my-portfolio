@@ -25,32 +25,29 @@ function App() {
         <Header/>
       </header>
       
-      <MediaQuery query="(max-width: 1300px)">
+      <MediaQuery query="(max-width: 1366px)">
       <div className="slider">
           <Header2/>
         </div>
         {/* <img src={Image00} alt="Logo" width="100%"/> オーストラリアで撮った画像にする */}
           <h1 id='name'>Hiromu Yasukaga | AIシステム科-ITスペシャリスト科</h1><br/>
-          <div className='my-profile' style={{width: '55%'}}>
-            
-            <h2>
+          <h2 className='old'>
               2001年生まれ21歳
-            </h2>
-            
-            <p className='profile-text'>
-              パソコンを触り始めて3年が経ちました。<br/>
-              私は高校生2年生の春にオーストラリアへ留学・ホームステイへ行かせていただきました。<br/>
-              その際に留学先の学生さんがプログラミングでゲームを作成していた様子をみて
-              プログラミングに興味を持ち始めました。<br/>
-              好奇心旺盛な性格で、気になったことを全力でやるのが好きなので、
-              海外に行ってみたり、コンテストやイベントへの参加、教室を開くなど他にも色々なことに挑戦してきました。
-            </p>
-            <img id='au' src={Image04} alt="Logo" width="100%"/>
-            
+          </h2>
+          <div className='my-profile'>
+              <p className='profile-text'>
+                パソコンを触り始めて3年が経ちました。<br/>
+                私は高校生2年生の春にオーストラリアへ留学・ホームステイへ行かせていただきました。<br/>
+                その際に留学先の学生さんがプログラミングでゲームを作成していた様子をみて
+                プログラミングに興味を持ち始めました。<br/>
+                好奇心旺盛な性格で、気になったことを全力でやるのが好きなので、
+                海外に行ってみたり、コンテストやイベントへの参加、教室を開くなど他にも色々なことに挑戦してきました。
+              </p>
+              <img id='au' src={Image04} alt="Logo" width="70%"/>
+              <img src={Image01} alt="Logo" width="30%"/> {/*オーストラリアで撮った画像にする */}
           </div>
-          <div  className="myphoto">
-            <img src={Image01} alt="Logo" width="30%"/> {/*オーストラリアで撮った画像にする */}
-          </div>
+          
+            
           
         <br/>
         <hr className="hr-text"></hr>
@@ -59,7 +56,7 @@ function App() {
         <h2 className='port-title'>◆Portfolio</h2><br/>
         <div className='my-port'>
           <div id='set'>
-            <Button variant="contained" style={{ width: "40%", height: "50px",color: "#ffa500"}} onClick={()=>{abc();}}><b>Portfolioの閲覧はこちらをクリックしてください</b></Button>
+            <Button variant="contained" style={{ width: "40%", height: "50px",color: "#ffa500"}} onClick={()=>{abc();}}><b>Portfolioの閲覧はこちら!</b></Button>
           </div>
         </div>  
         <br/>
@@ -115,15 +112,15 @@ function App() {
                   </ul>
               </ul>
             </div>
-            <p className='interne-text'>
-              パソコンを触り始めて3年が経ちました。<br/>
-              私は高校生2年生の春にオーストラリアへ留学・ホームステイへ行かせていただきました。<br/>
-              その際に留学先の学生さんがプログラミングでゲームを作成していた様子をみて
-              プログラミングに興味を持ち始めました。<br/>
-              パソコンを触り始めて3年が経ちました。<br/>
-              私は高校生2年生の春にオーストラリアへ留学・ホームステイへ行かせていただきました。<br/>
-              その際に留学先の学生さんがプログラミングでゲームを作成していた様子をみて
-              プログラミングに興味を持ち始めました。<br/>
+            <p className='under-interne-text'>
+              4人グループでwebアプリケーションを作成しました。<br/>
+              今回の長期インターンではプログラミングだけでなく、
+              料金設定、サービス名から始まり、ドメインの取得などもさせていただきました。<br/>
+              さらにマネジメントのプロと一緒にSEO対策なども学びました。<br/>
+              基本的にバージョン管理はGithubを使いました。<br/>
+              私は主にフロントエンドを担当しました。<br/>
+              Auth0を使ったログイン認証画面とSmartLPでトップページを作成いたしました。<br/>
+              さらにjavascriptのライブラリであるReactをメインで使い各種ページを協力し作成いたしました。
             </p>
           </div>
           <br/>
@@ -133,7 +130,7 @@ function App() {
 
         <div className='my-hobby'>
           <h2 className='hobby-title'>◆hobby</h2><br/>
-          <div className='hobbylist'>
+          <div className='hobby-list'>
               <ul className='cc'>
                   <ul>
                     <li>筋トレ</li>
@@ -147,8 +144,8 @@ function App() {
           </div>
           <div className='hobby-img'>
               {/* ↓自分の趣味をまとめる */}
-              <img id='rabbit01' src={Image02} alt="cherry" width="20%"/> 
-              <img id='rabbit02' src={Image03} alt="cherry" width="20%"/> 
+              <img id='rabbit01' src={Image02} alt="cherry" width="21%"/> 
+              <img id='rabbit02' src={Image03} alt="cherry" width="21%"/> 
               <img id='orilogo' src={Image05} alt="Logo" width="15%"/> 
               <img id='orilogo1' src={Image06} alt="Logo" width="15%"/> <br/>
               <div className='book-img'>
@@ -169,7 +166,7 @@ function App() {
 
 
 
-      <MediaQuery query="(min-width: 1300px)">
+      <MediaQuery query="(min-width: 1367px)">
         <div className="slider">
           <Header2/>
         </div>
