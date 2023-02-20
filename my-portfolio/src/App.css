@@ -30,6 +30,7 @@ html {
   float: left;
 }
 #rabbit01{
+  margin-right: 4%;
 }
 #rabbit02{
 }
@@ -90,14 +91,37 @@ html {
 .frontend,.backend,.lang,.tool,.task{
   float: left;
 }
+.under-interne-text{
+  padding-top: 2%;
+  padding-left: 4%;
+  clear: both;
+}
 .hr-text{
   clear: both;
 }
 .hobbylist{
-  width: 20%;
+  width: 15%;
   float: left;
-  padding: 1em 1em 1em 1em; /*余白*/
+  padding: 1em 1em 1em 0; /*余白*/
   background: #e3f6f5; /*背景色*/
   margin-right: 4%;
+}
+.book-img{
+  padding-top: 4%;
+}
+#book{
+  clear: both;
+  float: left;
+  margin-right: 4%;
+}
+#book2{
+  float: left;
+  margin-right: 4%;
+}
+#book3{
+  float: left;
+}
+.booktext{
+  text-indent: 1rem;
 }
 
