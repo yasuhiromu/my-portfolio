@@ -16,9 +16,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 const drawerWidth = 240;
-const navItems = [{name:'Home', link:'https://mui.com/material-ui/react-button/#main-content'}, /*nameにヘッダー右側の各名前を入れる、listにlinkを格納しておく*/
-                    {name:'About'}, 
-                    {name:'Contact'}];
+const navItems = [{name:'PortFolio',link:'https://www.notion.so/Portfolio-cbb35691f3624b6cb6994f8692f2a7d7?pvs=4'}, ];
 
 function DrawerAppBar(props) {
     const { window } = props;

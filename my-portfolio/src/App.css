@@ -78,8 +78,12 @@ html {
   padding: 1em 1em 2em 1em; /*余白*/
   background: #e3f6f5; /*背景色*/
 }
+.interne-list{
+  float: left;
+  margin-bottom: 10%;
+}
 .lang{
-  padding-right: 5%;
+  padding-right: 20px;
 }
 .frontend,.backend,.lang,.tool,.task{
   float: left;
